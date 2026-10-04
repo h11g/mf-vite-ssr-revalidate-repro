@@ -1,0 +1,14 @@
+{
+  "name": "mf-vite-ssr-revalidate-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs",
+    "force-check": "node force-check.mjs"
+  },
+  "dependencies": {
+    "@module-federation/runtime": "2.9.2",
+    "@module-federation/vite": "1.23.1",
+    "vite": "8.3.2"
+  }
+}
